@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: EMPIRE-MD
-    buildCommand: "npm install"  # Install dependencies
-    startCommand: "pm2 start index.js --deep-monitoring --attach --name EMPIRE-MD"  # Start PM2
-    plan: free  # Free plan
-    runtime: "node"  # Node.js runtime
