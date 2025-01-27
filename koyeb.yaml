@@ -4,9 +4,24 @@ services:
   - name: empire-service
     type: web
     build:
-      type: docker
-      dockerfile: Dockerfile
+      type: nodejs
     routes:
       - name: main
         path: /
         port: 8000
+    entrypoint:
+      - "pm2"
+      - "start"
+      - "index.js"
+      - "--no-daemon"
+    command:
+      - "pm2"
+      - "start"
+      - "index.js"
+      - "--deep-monitoring"
+      - "--attach"
+      - "--name"
+      - "empire-md"
+    args:
+      - "--no-daemon"
+    working_directory: /app
