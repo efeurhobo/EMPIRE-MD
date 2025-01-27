@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: EMPIRE-MD
+    buildCommand: "npm install"  # Install dependencies
+    startCommand: "pm2 start index.js --deep-monitoring --attach --name EMPIRE-MD"  # Start PM2
+    plan: free  # Free plan
+    runtime: "node"  # Node.js runtime
+    envVars:
+      ANTILINK: true  # Auto-delete-group-link
+      AUTO_LIKE_EMOJI: 💜  # Like emoji
+      AUTO_LIKE_STATUS: false  # Auto-like status
+      AUTO_VIEW_STATUS: false  # Auto-view status
+      MODE: private  # Bot's mode
+      OWNER_NAME: Ony_one_🥇Empire  # Owner's name
+      OWNER_NUMBER: 2348144250768  # Owner's number
+      PREFIX: "."  # Bot's prefix
+      SESSION_ID: "bJdhVYhK#e_BAHdprhe2k9TqojU6xq8t3PjbrFJdb_g_77vhonQg" # Session ID
+      AUTO_TYPING: false
+      ALWAYS_ONLINE: false
+      AUTO_RECORDING: false
+      ANTICALL: false
+      ANTICALL_MSG: "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*"
