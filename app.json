@@ -1,0 +1,85 @@
+{
+  "name": "𝐄𝐌𝐏𝐈𝐑𝐄-𝐌𝐃",
+  "description": "𝐄𝐌𝐏𝐈𝐑𝐄-𝐌𝐃 | 𝐀𝐧 𝐚𝐥𝐥-𝐢𝐧-𝐨𝐧𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐦𝐮𝐬𝐢𝐜 🎶, 𝐦𝐞𝐝𝐢𝐚 𝐬𝐡𝐚𝐫𝐢𝐧𝐠 📤, 𝐚𝐧𝐝 𝐬𝐦𝐚𝐫𝐭 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬 🤖. 𝐅𝐚𝐬𝐭, 𝐫𝐞𝐥𝐢𝐚𝐛𝐥𝐞, 𝐚𝐧𝐝 𝐜𝐮𝐬𝐭𝐨𝐦𝐢𝐳𝐚𝐛𝐥𝐞! 🚀",
+  "logo": "https://files.catbox.moe/r4decc.jpg",
+  "keywords": ["EMPIRE-MD", "𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]", "Bot", "𝐄𝐌𝐏𝐈𝐑𝐄-𝐌𝐃"],
+  "success_url": "/",
+  "env": {
+    "ALWAYS_ONLINE": {
+      "required": true,
+      "value": "false",
+      "description": "Set the bot's status to always online or offline."
+    },
+    "ANTICALL": {
+      "required": true,
+      "value": "false",
+      "description": "use true or false to Enable or disable calls."
+    },
+    "ANTICALL_MSG": {
+      "required": true,
+      "value": "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
+      "description": "leave like this or put ur anticall message."
+    },
+    "ANTILINK": {
+      "description": "Enable or disable the anti-link feature in groups",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_LIKE_EMOJI": {
+      "description": "Set custom emoji for auto-like status.",
+      "value": "💜",
+      "required": true
+    },
+    "AUTO_LIKE_STATUS": {
+      "description": "Enable auto-like status with true or false.",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_RECORDING": {
+      "required": true,
+      "value": "false",
+      "description": "Enable or disable the auto-recording feature."
+    },
+    "AUTO_TYPING": {
+      "required": true,
+      "value": "false",
+      "description": "Enable or disable the auto-typing feature."
+    },
+    "AUTO_VIEW_STATUS": {
+      "description": "Enable auto-read status with true or false.",
+      "value": "false",
+      "required": true
+    },
+    "MODE": {
+      "description": " Use 'public' or 'private'.",
+      "value": "private",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner name.",
+      "value": "𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Put the owner number below.",
+      "value": "2348078582627",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Putyour prefix for the bot. You can set `all | . | .!*`.",
+      "value": ".",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "Put session ID below.",
+      "value": "put session id here",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-20"
+}
