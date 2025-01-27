@@ -1,0 +1,43 @@
+name: empire-md
+
+services:
+  - name: empire-service
+    type: web
+    build:
+      type: docker
+      dockerfile: Dockerfile
+    routes:
+      - name: main
+        path: /
+        port: 8000
+    env:
+      - name: NODE_ENV
+        value: production
+      - name: ALWAYS_ONLINE
+        value: false
+      - name: ANTICALL
+        value: false
+      - name: ANTICALL_MSG
+        value: "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*"
+      - name: ANTILINK
+        value: false
+      - name: AUTO_LIKE_EMOJI
+        value: "💜"
+      - name: AUTO_LIKE_STATUS
+        value: false
+      - name: AUTO_RECORDING
+        value: false
+      - name: AUTO_TYPING
+        value: false
+      - name: AUTO_VIEW_STATUS
+        value: false
+      - name: MODE
+        value: private
+      - name: OWNER_NAME
+        value: "𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫]"
+      - name: OWNER_NUMBER
+        value: "put your number here"
+      - name: PREFIX
+        value: "."
+      - name: SESSION_ID
+        value: "put session id here"
