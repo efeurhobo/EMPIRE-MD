@@ -21,7 +21,7 @@
 3. ***Deploy on [Heroku](https://efeurhobo-empire-x.vercel.app/)***  
 4. ***Deploy on [Replit](https://replit.com/github/bullishdevs/Empire_X.git)***  
 5. ***Deploy on [Railway]()***  
-6. ***Deploy on [Koyeb](https://app.koyeb.com/deploy?name=empire-x&repository=bullishdevs%2FEmpire_X&branch=main&instance_type=free&env%5BBOT_NAME%5D=Empire_X&env%5BAUTO_REACT%5D=true&env%5BOWNER_REACT%5D=true&env%5BPREFIX%5D=.&env%5BMODE%5D=private&env%5BAUTO_READ_STATUS%5D=false&env%5BOWNER_NUMBER%5D=2348078582627&env%5BSESSION_ID%5D=Put+session+I%27d+here)***  
+6. ***Deploy on [Koyeb]([![Deploy to Koyeb](https://app.koyeb.com/deploy?name=empire-md&builder=dockerfile&instance_type=free&env%5BALWAYS_ONLINE%5D=false&env%5BANTICALL%5D=false&env%5BANTICALL_MSG%5D=*_%F0%9F%93%9E+Auto+Call+Reject+Mode+Active.+%F0%9F%93%B5+No+Calls+Allowed_*&env%5BANTILINK%5D=false&env%5BAUTO_LIKE_STATUS%5D=false&env%5BAUTO_LIKE_EMOJI%5D=%F0%9F%92%9A&env%5BAUTO_VIEW_STATUS%5D=false&env%5BAUTO_TYPING%5D=false&env%5BMODE%5D=private&env%5BOWNER_NAME%5D=%F0%9D%90%84%F0%9D%90%A6%F0%9D%90%A9%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%9E+%F0%9D%90%93%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%A1+%5B+%F0%9D%90%83%F0%9D%90%9E%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%A5%F0%9D%90%A8%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%AB+%5D&env%5BOWNER_NUMBER%5D=put+your+number+here&env%5BPREFIX%5D=.&env%5BSESSION_ID%5D=put+your+session+id+here)***  
 7. ***Deploy on [Glitch]()***  
 8. ***Deploy on [Render](https://empire-x-efeurhobo.vercel.app/)***  
 9. ***Deploy on [Bot Hosting](https://bot-hosting.net/?aff=1148117314785529946)***  
