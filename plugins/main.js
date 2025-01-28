@@ -191,10 +191,6 @@ async (conn, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, p
     }
 });
 
-// Import the configuration and monospace function
-const { botname } = require('./config.js'); // Ensure the path to config.js is correct
-const { monospace } = require('./monospace.js'); // Ensure the path to monospace.js is correct
-
 cmd({
     pattern: "menu",
     desc: "Get command list",
