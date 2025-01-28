@@ -15,6 +15,7 @@ services:
       - "index.js"
       - "--no-daemon"
     command:
+      - "npm install"  # Replace npm ci with npm install
       - "pm2"
       - "start"
       - "index.js"
