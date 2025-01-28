@@ -25,3 +25,7 @@ services:
     args:
       - "--no-daemon"
     working_directory: /app
+    volumes:
+      - ./app:/app
+    build:
+      context: .
