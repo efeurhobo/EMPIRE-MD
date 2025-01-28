@@ -5,7 +5,7 @@ const os = require('os'); // Import the os module
 
 const prefix = config.PREFIX || ".";
 const mode = config.MODE || "private";
-const botname = global.botname
+const botname = "global.botname";
 
 
 
