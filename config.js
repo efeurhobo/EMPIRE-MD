@@ -11,7 +11,7 @@ global.alive_img = "https://files.catbox.moe/z7c67w.jpg"; // URL for alive image
 global.caption = "©𝟐𝟎𝟐𝟓 𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]"; // don't change 
 global.channelUrl = "https://whatsapp.com/channel/0029VajVvpQIyPtUbYt3Oz0k";
 global.botname = "𝐄𝐌𝐏𝐈𝐑𝐄-𝐌𝐃";
-global.email ="empiretech@duck.com";
+global.apikey ="free_key@maher_apis";
 global.devs = "2348078582627" // Developer Contact
 global.session = "https://empire-md-paircode.onrender.com/"; // DO NOT Change this....
 
