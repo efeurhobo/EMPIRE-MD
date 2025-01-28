@@ -1,1 +1,355 @@
-const _0x193f75=_0x5289;(function(_0x3c5f3c,_0xcba51a){const _0x5c7851=_0x5289,_0x220235=_0x3c5f3c();while(!![]){try{const _0x219695=parseInt(_0x5c7851(0x170))/0x1*(parseInt(_0x5c7851(0x13f))/0x2)+parseInt(_0x5c7851(0x181))/0x3*(parseInt(_0x5c7851(0x178))/0x4)+-parseInt(_0x5c7851(0x176))/0x5*(-parseInt(_0x5c7851(0x16a))/0x6)+-parseInt(_0x5c7851(0x156))/0x7+parseInt(_0x5c7851(0x16e))/0x8*(-parseInt(_0x5c7851(0x14f))/0x9)+-parseInt(_0x5c7851(0x15c))/0xa+parseInt(_0x5c7851(0x14e))/0xb*(parseInt(_0x5c7851(0x165))/0xc);if(_0x219695===_0xcba51a)break;else _0x220235['push'](_0x220235['shift']());}catch(_0x4987fa){_0x220235['push'](_0x220235['shift']());}}}(_0x4782,0xc91da));function _0x4782(){const _0x42df42=['*\x20\x20〕━━⬤\x0a','toString','\x0a│\x20✭\x20Time:\x20','\x0a│\x20✭\x20Commands:\x20','trim','*🍁\x20Command:*\x20','Show\x20all\x20commands\x20and\x20their\x20categories','filename','192WbPjdV','Get\x20command\x20list','*Please\x20provide\x20a\x20command\x20or\x20directory*','╭━━〔\x20\x20*','*An\x20error\x20occurred\x20while\x20processing\x20your\x20request.*\x0a\x0a_Error:_\x20','90246fpZfLP','Africa/Lagos','../Lib/monospace','message','522056OVGIVX','category','5527UQtApd','length','includes','../command','\x0a┃𖠄│\x20Time\x20:\x20','format','485MVYCtT','find','56WwPpkJ','error','╰────────────────','\x0a│\x20✭\x20Date:\x20','```\x0a╭━━━〔\x20*','Show\x20all\x20commands\x20and\x20descriptions','map','MODE','private','53508imsGdq','2-digit','floor','*✨\x20File\x20Name:*\x20','toUpperCase','*🧩\x20Category:*\x20','forEach','\x0a│\x20✭\x20Uptime:\x20','sendMessage','uptime','DateTimeFormat','218BOVMSx','*〕━━━⬤\x0a┃𖠄│\x20Prefix\x20:\x20[\x20','Get\x20the\x20exact\x20name\x20and\x20location\x20of\x20the\x20command\x20in\x20the\x20repository,\x20so\x20the\x20user\x20can\x20edit\x20it.','\x0a╰────────────────\x0a╭────────────────\x0a','push','\x0a│\x20\x20\x20\x20','help','join','pattern','\x0a┃𖠄│\x20Platform\x20:\x20Linux\x0a┃𖠄╰─────────────⬤\x0a╰━━━━━━━━━━━━━━⬤```\x0a','\x0a┃𖠄│\x20Ram\x20:\x20','toLowerCase','\x20]\x0a┃𖠄│\x20User\x20:\x20','main','menu','501886gNNErO','189zgcNyk','numeric','alias','\x0a│\x20✭\x20Owner:\x20','\x0a│\x20\x20\x20\x20Category:\x20','global.botname','file','1159361tSBEiI','desc','list','toFixed','en-GB','entries','6813500blAtYJ'];_0x4782=function(){return _0x42df42;};return _0x4782();}function _0x5289(_0x2324d4,_0x235004){const _0x478223=_0x4782();return _0x5289=function(_0x52896f,_0x299546){_0x52896f=_0x52896f-0x138;let _0x4ea7b0=_0x478223[_0x52896f];return _0x4ea7b0;},_0x5289(_0x2324d4,_0x235004);}const config=require('../config'),{cmd,commands}=require(_0x193f75(0x173)),{monospace}=require(_0x193f75(0x16c)),os=require('os'),prefix=config['PREFIX']||'.',mode=config[_0x193f75(0x17f)]||_0x193f75(0x180),botname=_0x193f75(0x154);cmd({'pattern':_0x193f75(0x155),'desc':_0x193f75(0x141),'category':'main','filename':__filename},async(_0xe00253,_0x2091d0,_0x4fc6b4,{from:_0x9694a2,quoted:_0x3e6fe7,body:_0xcd66cc,isCmd:_0x4a02c4,command:_0x2994af,args:_0x5f58d1,q:_0x5bdd62,isGroup:_0x2a4e75,sender:_0x331719,senderNumber:_0x4f84aa,botNumber2:_0x56e02b,botNumber:_0x2f3ed0,pushname:_0x3b17cf,isMe:_0x352432,isOwner:_0x252653,groupMetadata:_0x137727,groupName:_0x733b6a,participants:_0x14ec54,groupAdmins:_0x595da6,isBotAdmins:_0x59ada0,isAdmins:_0x1d94c9,reply:_0x24c640})=>{const _0x53f411=_0x193f75;try{if(!_0x5bdd62||_0x5bdd62[_0x53f411(0x161)]()==='')return _0x24c640(_0x53f411(0x167));const _0x34ae1f=commands[_0x53f411(0x177)](_0x5334cc=>_0x5334cc['pattern'][_0x53f411(0x14a)]()===_0x5bdd62[_0x53f411(0x14a)]()||_0x5334cc[_0x53f411(0x151)]&&_0x5334cc[_0x53f411(0x151)][_0x53f411(0x172)](_0x5bdd62[_0x53f411(0x14a)]()));if(!_0x34ae1f)return _0x24c640('*❌\x20No\x20such\x20command\x20found.*');let _0x424df7=[];return _0x424df7[_0x53f411(0x143)](_0x53f411(0x162)+_0x34ae1f[_0x53f411(0x147)]),_0x34ae1f[_0x53f411(0x16f)]&&_0x424df7[_0x53f411(0x143)](_0x53f411(0x139)+_0x34ae1f['category']),_0x34ae1f[_0x53f411(0x157)]&&_0x424df7[_0x53f411(0x143)]('*✨\x20Description:*\x20'+_0x34ae1f[_0x53f411(0x157)]),_0x34ae1f[_0x53f411(0x164)]&&_0x424df7[_0x53f411(0x143)](_0x53f411(0x184)+_0x34ae1f['filename']),_0x24c640(_0x424df7[_0x53f411(0x146)]('\x0a'));}catch(_0x4abcc8){return _0x24c640(_0x53f411(0x169)+_0x4abcc8[_0x53f411(0x16d)]);}}),cmd({'pattern':_0x193f75(0x158),'desc':_0x193f75(0x17d),'react':'📜','category':_0x193f75(0x14c),'filename':__filename},async(_0x5136fa,_0x3a4917,_0xd01fd8,{from:_0x16767e,quoted:_0x338134,isCmd:_0x2473b3,command:_0xc952f0,args:_0x5a3e8d,q:_0x140d53,isGroup:_0x5d6bae,sender:_0x5cb790,pushname:_0x4aa937,reply:_0xe9aff5})=>{const _0x44be86=_0x193f75;try{function _0x3bea05(_0x14aaf0){const _0xf143c8=_0x5289,_0x362d8b=Math[_0xf143c8(0x183)](_0x14aaf0/(0x18*0x3c*0x3c));_0x14aaf0%=0x18*0x3c*0x3c;const _0x4a1cd6=Math[_0xf143c8(0x183)](_0x14aaf0/(0x3c*0x3c));_0x14aaf0%=0x3c*0x3c;const _0x559bed=Math['floor'](_0x14aaf0/0x3c);return _0x14aaf0=Math[_0xf143c8(0x183)](_0x14aaf0%0x3c),_0x362d8b+'d\x20'+_0x4a1cd6+'h\x20'+_0x559bed+'m\x20'+_0x14aaf0+'s';}const _0x365c36=new Date(),_0x160a8b=new Intl[(_0x44be86(0x13e))](_0x44be86(0x15a),{'timeZone':_0x44be86(0x16b),'day':_0x44be86(0x182),'month':_0x44be86(0x182),'year':_0x44be86(0x150)})[_0x44be86(0x175)](_0x365c36),_0x5d5098=new Intl[(_0x44be86(0x13e))](_0x44be86(0x15a),{'timeZone':_0x44be86(0x16b),'hour':'2-digit','minute':_0x44be86(0x182),'second':_0x44be86(0x182),'hour12':!![]})[_0x44be86(0x175)](_0x365c36),_0x5809d6=_0x3bea05(process[_0x44be86(0x13d)]()),_0x5b3c33=commands['length'];let _0x17afa1='╭────────────────╮\x0a\x20\x20\x20\x20\x20\x20𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏\x0a╰────────────────╯\x0a\x0a╭────────────────\x0a│\x20✭\x20Prefix:\x20'+monospace(prefix)+'\x0a│\x20✭\x20Owner:\x20'+monospace(_0x4aa937)+'\x0a│\x20✭\x20Commands:\x20'+monospace(_0x5b3c33[_0x44be86(0x15e)]())+_0x44be86(0x13b)+monospace(_0x5809d6)+_0x44be86(0x17b)+monospace(_0x160a8b)+_0x44be86(0x15f)+monospace(_0x5d5098)+_0x44be86(0x142);commands['forEach']((_0x5350e2,_0x12cada)=>{const _0x5867af=_0x44be86;_0x5350e2[_0x5867af(0x147)]&&(_0x17afa1+='│\x20'+(_0x12cada+0x1)+'\x20'+monospace(_0x5350e2[_0x5867af(0x147)])+'\x0a');}),_0x17afa1+=_0x44be86(0x17a),await _0x5136fa[_0x44be86(0x13c)](_0x16767e,{'text':_0x17afa1[_0x44be86(0x161)]()},{'quoted':_0x3a4917});}catch(_0x15f7b8){console['error'](_0x15f7b8),_0xe9aff5(''+_0x15f7b8);}}),cmd({'pattern':_0x193f75(0x145),'desc':_0x193f75(0x17d),'react':'📜','category':'main','filename':__filename},async(_0x3288b7,_0x1c0ee2,_0x3898ac,{from:_0x369ff3,quoted:_0x18e41d,isCmd:_0xb8443e,command:_0x1bd794,args:_0x51da34,q:_0x521d9d,isGroup:_0x1500e9,sender:_0x5a855b,pushname:_0x41ed6f,reply:_0x5b1af0})=>{const _0x425fdc=_0x193f75;try{function _0x14ea69(_0x44921e){const _0x9c7f13=_0x5289,_0x14622d=Math[_0x9c7f13(0x183)](_0x44921e/(0x18*0x3c*0x3c));_0x44921e%=0x18*0x3c*0x3c;const _0x2d8ec9=Math[_0x9c7f13(0x183)](_0x44921e/(0x3c*0x3c));_0x44921e%=0x3c*0x3c;const _0x15c012=Math['floor'](_0x44921e/0x3c);return _0x44921e=Math['floor'](_0x44921e%0x3c),_0x14622d+'d\x20'+_0x2d8ec9+'h\x20'+_0x15c012+'m\x20'+_0x44921e+'s';}const _0x5ba50c=new Date(),_0x29a70b=new Intl[(_0x425fdc(0x13e))]('en-GB',{'timeZone':_0x425fdc(0x16b),'day':_0x425fdc(0x182),'month':_0x425fdc(0x182),'year':_0x425fdc(0x150)})[_0x425fdc(0x175)](_0x5ba50c),_0xc88bf=new Intl[(_0x425fdc(0x13e))](_0x425fdc(0x15a),{'timeZone':_0x425fdc(0x16b),'hour':_0x425fdc(0x182),'minute':_0x425fdc(0x182),'second':_0x425fdc(0x182),'hour12':!![]})[_0x425fdc(0x175)](_0x5ba50c),_0xdde679=_0x14ea69(process[_0x425fdc(0x13d)]()),_0x5105e1=commands['length'];let _0xb27033='╭────────────────╮\x0a\x20\x20\x20\x20\x20\x20𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏\x0a╰────────────────╯\x0a\x0a╭────────────────\x0a│\x20✭\x20Prefix:\x20'+monospace(prefix)+_0x425fdc(0x152)+monospace(_0x41ed6f)+'\x0a│\x20✭\x20Commands:\x20'+monospace(_0x5105e1[_0x425fdc(0x15e)]())+_0x425fdc(0x13b)+monospace(_0xdde679)+_0x425fdc(0x17b)+monospace(_0x29a70b)+_0x425fdc(0x15f)+monospace(_0xc88bf)+_0x425fdc(0x142);commands['forEach']((_0x1188bc,_0x365988)=>{const _0x47d842=_0x425fdc;_0x1188bc['pattern']&&_0x1188bc[_0x47d842(0x157)]&&(_0xb27033+='│\x20'+(_0x365988+0x1)+'\x20'+monospace(_0x1188bc[_0x47d842(0x147)])+_0x47d842(0x144)+_0x1188bc[_0x47d842(0x157)]+'\x0a');}),_0xb27033+=_0x425fdc(0x17a),await _0x3288b7[_0x425fdc(0x13c)](_0x369ff3,{'text':_0xb27033[_0x425fdc(0x161)]()},{'quoted':_0x1c0ee2});}catch(_0x2e1b25){console[_0x425fdc(0x179)](_0x2e1b25),_0x5b1af0(''+_0x2e1b25);}}),cmd({'pattern':_0x193f75(0x14d),'desc':_0x193f75(0x166),'react':'🪀','category':_0x193f75(0x14c),'filename':__filename},async(_0x25973a,_0x4d0b65,_0x349db9,{from:_0x5ad6df,quoted:_0xb8f0b1,isCmd:_0x2a4933,command:_0x54308c,args:_0x459680,q:_0x387284,isGroup:_0x3c5aca,sender:_0x90810a,pushname:_0x50de77,reply:_0x323261})=>{const _0x3e0f7e=_0x193f75;try{function _0xaa67d9(_0x2eb639){const _0x42ca60=_0x5289,_0x1c891a=Math[_0x42ca60(0x183)](_0x2eb639/(0x18*0x3c*0x3c));_0x2eb639%=0x18*0x3c*0x3c;const _0x495cd6=Math[_0x42ca60(0x183)](_0x2eb639/(0x3c*0x3c));_0x2eb639%=0x3c*0x3c;const _0x53083a=Math['floor'](_0x2eb639/0x3c);return _0x2eb639=Math[_0x42ca60(0x183)](_0x2eb639%0x3c),_0x1c891a+'d\x20'+_0x495cd6+'h\x20'+_0x53083a+'m\x20'+_0x2eb639+'s';}const _0x485517=new Date(),_0x1bd081=new Intl[(_0x3e0f7e(0x13e))](_0x3e0f7e(0x15a),{'timeZone':'Africa/Lagos','day':'2-digit','month':_0x3e0f7e(0x182),'year':_0x3e0f7e(0x150)})[_0x3e0f7e(0x175)](_0x485517),_0x37a453=new Intl[(_0x3e0f7e(0x13e))](_0x3e0f7e(0x15a),{'timeZone':_0x3e0f7e(0x16b),'hour':'2-digit','minute':_0x3e0f7e(0x182),'second':_0x3e0f7e(0x182),'hour12':!![]})['format'](_0x485517),_0x106c61=_0xaa67d9(process['uptime']()),_0x2c07bb=commands[_0x3e0f7e(0x171)],_0x5f258c=os['totalmem']()/(0x400*0x400),_0x1c1bd2=os['freemem']()/(0x400*0x400),_0x2eb369=_0x5f258c-_0x1c1bd2,_0x499a4f=new Intl['DateTimeFormat'](_0x3e0f7e(0x15a),{'weekday':'long'})[_0x3e0f7e(0x175)](_0x485517),_0x5777f3=commands['reduce']((_0x3c7453,_0x10ea1a)=>{const _0x1af94=_0x3e0f7e;if(_0x10ea1a[_0x1af94(0x147)]&&!_0x10ea1a['dontAddCommandList']){if(!_0x3c7453[_0x10ea1a[_0x1af94(0x16f)]])_0x3c7453[_0x10ea1a[_0x1af94(0x16f)]]=[];_0x3c7453[_0x10ea1a[_0x1af94(0x16f)]][_0x1af94(0x143)](_0x10ea1a[_0x1af94(0x147)]);}return _0x3c7453;},{}),_0x5d5616=_0x3e0f7e(0x17c)+botname+_0x3e0f7e(0x140)+prefix+_0x3e0f7e(0x14b)+_0x50de77+_0x3e0f7e(0x174)+_0x37a453+'\x0a┃𖠄│\x20Day\x20:\x20'+_0x499a4f+'\x0a┃𖠄│\x20Date\x20:\x20'+_0x1bd081+'\x0a┃𖠄│\x20Version\x20:\x201.0.0\x0a┃𖠄│\x20Commands\x20:\x20'+_0x2c07bb['toString']()+_0x3e0f7e(0x149)+_0x2eb369[_0x3e0f7e(0x159)](0x2)+'MB\x20/\x20'+_0x5f258c[_0x3e0f7e(0x159)](0x2)+'MB\x0a┃𖠄│\x20Uptime\x20:\x20'+_0x106c61+_0x3e0f7e(0x148),_0xec9052=(_0x1478a7,_0x598e1e)=>{const _0x5d13e2=_0x3e0f7e,_0x134316=_0x5d13e2(0x168)+monospace(_0x1478a7[_0x5d13e2(0x138)]())+_0x5d13e2(0x15d),_0x21272c=_0x598e1e[_0x5d13e2(0x17e)]((_0x1221bc,_0x27270f)=>'│\x20'+(_0x27270f+0x1)+'.\x20'+monospace(prefix+_0x1221bc))['join']('\x0a'),_0x51189a='╰━━━━━━━━━━━━━⬤\x0a';return''+_0x134316+_0x21272c+'\x0a'+_0x51189a;};let _0x573bea=_0x5d5616;for(const [_0x4f03d1,_0x142e08]of Object[_0x3e0f7e(0x15b)](_0x5777f3)){_0x573bea+=_0xec9052(_0x4f03d1,_0x142e08)+'\x0a';}await _0x25973a[_0x3e0f7e(0x13c)](_0x5ad6df,{'text':_0x573bea['trim']()},{'quoted':_0x4d0b65});}catch(_0x4a2dec){console['log'](_0x4a2dec),_0x323261(''+_0x4a2dec);}}),cmd({'pattern':_0x193f75(0x16f),'desc':_0x193f75(0x163),'react':'📜','category':'main','filename':__filename},async(_0x2ad037,_0x27dece,_0x21b5fa,{from:_0x43b5b8,quoted:_0x239447,isCmd:_0x5b1679,command:_0x5ef809,args:_0xcdd14d,q:_0x204fd8,isGroup:_0x259615,sender:_0x37cf74,pushname:_0x1eb00c,reply:_0x527b92})=>{const _0x48f047=_0x193f75;try{function _0x366972(_0x31e2b0){const _0xd11e2c=_0x5289,_0x4dc5f2=Math['floor'](_0x31e2b0/(0x18*0x3c*0x3c));_0x31e2b0%=0x18*0x3c*0x3c;const _0x87076d=Math['floor'](_0x31e2b0/(0x3c*0x3c));_0x31e2b0%=0x3c*0x3c;const _0x52abf8=Math[_0xd11e2c(0x183)](_0x31e2b0/0x3c);return _0x31e2b0=Math[_0xd11e2c(0x183)](_0x31e2b0%0x3c),_0x4dc5f2+'d\x20'+_0x87076d+'h\x20'+_0x52abf8+'m\x20'+_0x31e2b0+'s';}const _0x69a96b=new Date(),_0x2bf52c=new Intl[(_0x48f047(0x13e))]('en-GB',{'timeZone':_0x48f047(0x16b),'day':_0x48f047(0x182),'month':_0x48f047(0x182),'year':_0x48f047(0x150)})['format'](_0x69a96b),_0x313fb3=new Intl['DateTimeFormat'](_0x48f047(0x15a),{'timeZone':_0x48f047(0x16b),'hour':_0x48f047(0x182),'minute':_0x48f047(0x182),'second':_0x48f047(0x182),'hour12':!![]})[_0x48f047(0x175)](_0x69a96b),_0x4ad8da=_0x366972(process['uptime']()),_0x3632db=commands['length'];let _0x55d246='╭────────────────╮\x0a\x20\x20\x20\x20\x20\x20𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏\x0a╰────────────────╯\x0a\x0a╭────────────────\x0a│\x20✭\x20Prefix:\x20'+monospace(prefix)+'\x0a│\x20✭\x20Owner:\x20'+monospace(_0x1eb00c)+_0x48f047(0x160)+monospace(_0x3632db[_0x48f047(0x15e)]())+'\x0a│\x20✭\x20Uptime:\x20'+monospace(_0x4ad8da)+_0x48f047(0x17b)+monospace(_0x2bf52c)+_0x48f047(0x15f)+monospace(_0x313fb3)+_0x48f047(0x142);commands[_0x48f047(0x13a)]((_0x163b92,_0x4ce76d)=>{const _0x5d7ba4=_0x48f047;_0x163b92[_0x5d7ba4(0x147)]&&_0x163b92[_0x5d7ba4(0x16f)]&&(_0x55d246+='│\x20'+(_0x4ce76d+0x1)+'\x20'+monospace(_0x163b92['pattern'])+_0x5d7ba4(0x153)+_0x163b92[_0x5d7ba4(0x16f)]+'\x0a');}),_0x55d246+=_0x48f047(0x17a),await _0x2ad037['sendMessage'](_0x43b5b8,{'text':_0x55d246['trim']()},{'quoted':_0x27dece});}catch(_0x330b08){console[_0x48f047(0x179)](_0x330b08),_0x527b92(''+_0x330b08);}});
+const config = require('../config');
+const { cmd, commands } = require('../command');
+const { monospace } = require('../Lib/monospace');
+const os = require('os'); // Import the os module
+
+const prefix = config.PREFIX || ".";
+const mode = config.MODE || "private";
+const botname = "global.botname";
+
+
+
+cmd({
+    pattern: "file",
+    desc: "Get the exact name and location of the command in the repository, so the user can edit it.",
+    category: "main",
+    filename: __filename,
+  },
+  async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+      if (!q || q.trim() === "") {
+        return reply("*Please provide a command or directory*");
+      }
+
+      const commandInfo = commands.find(
+        (cmd) => cmd.pattern.toLowerCase() === q.toLowerCase() || (cmd.alias && cmd.alias.includes(q.toLowerCase()))
+      );
+
+      if (!commandInfo) {
+        return reply("*❌ No such command found.*");
+      }
+
+      let output = [];
+      output.push(`*🍁 Command:* ${commandInfo.pattern}`);
+      if (commandInfo.category) {
+        output.push(`*🧩 Category:* ${commandInfo.category}`);
+      }
+      if (commandInfo.desc) {
+        output.push(`*✨ Description:* ${commandInfo.desc}`);
+      }
+      if (commandInfo.filename) {
+        output.push(`*✨ File Name:* ${commandInfo.filename}`);
+      }
+
+      return reply(output.join("\n"));
+    } catch (e) {
+      return reply(`*An error occurred while processing your request.*\n\n_Error:_ ${e.message}`);
+    }
+  });
+
+cmd({
+    pattern: "list",
+    desc: "Show all commands and descriptions",
+    react: "📜",
+    category: "main",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
+    try {
+        // Format uptime function
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        // Get current date and time in Nigeria timezone (WAT)
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const totalCommands = commands.length;
+
+        // Format the command list
+        let list = `╭────────────────╮
+      𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏
+╰────────────────╯
+
+╭────────────────
+│ ✭ Prefix: ${monospace(prefix)}
+│ ✭ Owner: ${monospace(pushname)}
+│ ✭ Commands: ${monospace(totalCommands.toString())}
+│ ✭ Uptime: ${monospace(uptime)}
+│ ✭ Date: ${monospace(date)}
+│ ✭ Time: ${monospace(time)}
+╰────────────────
+╭────────────────\n`;
+
+        commands.forEach((cmd, index) => {
+            if (cmd.pattern) {
+                list += `│ ${index + 1} ${monospace(cmd.pattern)}\n`;
+            }
+        });
+
+        list += `╰────────────────`;
+
+        await conn.sendMessage(from, {
+            text: list.trim(),
+        }, { quoted: mek });
+    } catch (e) {
+        console.error(e);
+        reply(`${e}`);
+    }
+});
+
+cmd({
+    pattern: "help",
+    desc: "Show all commands and descriptions",
+    react: "📜",
+    category: "main",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
+    try {
+        // Format uptime function
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        // Get current date and time in Nigeria timezone (WAT)
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const totalCommands = commands.length;
+
+        // Format the command list
+        let list = `╭────────────────╮
+      𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏
+╰────────────────╯
+
+╭────────────────
+│ ✭ Prefix: ${monospace(prefix)}
+│ ✭ Owner: ${monospace(pushname)}
+│ ✭ Commands: ${monospace(totalCommands.toString())}
+│ ✭ Uptime: ${monospace(uptime)}
+│ ✭ Date: ${monospace(date)}
+│ ✭ Time: ${monospace(time)}
+╰────────────────
+╭────────────────\n`;
+
+        commands.forEach((cmd, index) => {
+            if (cmd.pattern && cmd.desc) {
+                list += `│ ${index + 1} ${monospace(cmd.pattern)}\n│    ${cmd.desc}\n`;
+            }
+        });
+
+        list += `╰────────────────`;
+
+        await conn.sendMessage(from, {
+            text: list.trim(),
+        }, { quoted: mek });
+    } catch (e) {
+        console.error(e);
+        reply(`${e}`);
+    }
+});
+
+// Import the configuration and monospace function
+const { botname } = require('./config.js'); // Ensure the path to config.js is correct
+const { monospace } = require('./monospace.js'); // Ensure the path to monospace.js is correct
+
+cmd({
+    pattern: "menu",
+    desc: "Get command list",
+    react: "🪀",
+    category: "main",
+    filename: __filename
+}, async (conn, mek, m, { from, quoted, sender, pushname, reply }) => {
+    try {
+        // Utility functions
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        function formatMemory(bytes) {
+            return (bytes / (1024 ** 3)).toFixed(2) + " GB";
+        }
+
+        // Time and Date
+        const now = new Date();
+        const timeZone = 'Africa/Lagos';
+        const options = { timeZone, hour12: true };
+        const time = now.toLocaleTimeString('en-US', options);
+        const date = now.toLocaleDateString('en-US', options);
+        const dayOfWeek = now.toLocaleDateString('en-US', { timeZone, weekday: 'long' });
+
+        // System Info
+        const uptime = formatUptime(process.uptime());
+        const totalMemory = os.totalmem();
+        const usedMemory = totalMemory - os.freemem();
+
+        // Bot Info
+        const prefix = ".";
+        const totalCommands = commands.length;
+        const version = "1.3.0";
+
+        // Header
+        const header = `${monospace(`
+╭─── ${botname} ────
+│ Oᴡɴᴇʀ: αѕтяσχ11		
+│ Pʀᴇꜰɪx: ${prefix}
+│ Pʟᴜɢɪɴꜱ: ${totalCommands}
+│ Mᴏᴅᴇ: ᴘᴜʙʟɪᴄ
+│ Uᴘᴛɪᴍᴇ: ${uptime}
+│ Pʟᴀᴛꜰᴏʀᴍ: ʟɪɴᴜx
+│ Mᴇᴍᴏʀʏ: ${formatMemory(usedMemory)}
+│ Dᴀʏ: ${dayOfWeek}
+│ Dᴀᴛᴇ: ${date}
+│ Tɪᴍᴇ: ${time}
+│ Vᴇʀꜱɪᴏɴ: ${version}
+╰─────────────`)}`;
+
+        // Categorized Commands
+        const categorized = commands.reduce((acc, cmd) => {
+            if (cmd.pattern && !cmd.dontAddCommandList) {
+                if (!acc[cmd.category]) acc[cmd.category] = [];
+                acc[cmd.category].push(cmd.pattern);
+            }
+            return acc;
+        }, {});
+
+        const formatCategory = (category, cmds) => {
+            const title = `${monospace(`╭──── ${category.toUpperCase()} ────`)}\n`;
+            const body = cmds.map((cmd, idx) => `│ ${idx + 1}· ${monospace(prefix + cmd)}`).join('\n');
+            const footer = `${monospace("╰────────────")}\n`;
+            return `${title}${body}\n${footer}`;
+        };
+
+        // Generate Menu
+        let menu = `${header}\n\n`;
+        for (const [category, cmds] of Object.entries(categorized)) {
+            menu += formatCategory(category, cmds);
+        }
+
+        // Send Menu
+        await conn.sendMessage(from, { text: menu.trim() }, { quoted: mek });
+    } catch (err) {
+        console.error(err);
+        reply(`An error occurred: ${err.message}`);
+    }
+});
+
+cmd({
+    pattern: "category",
+    desc: "Show all commands and their categories",
+    react: "📜",
+    category: "main",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, isCmd, command, args, q, isGroup, sender, pushname, reply }) => {
+    try {
+        // Format uptime function
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / (24 * 60 * 60));
+            seconds %= 24 * 60 * 60;
+            const hours = Math.floor(seconds / (60 * 60));
+            seconds %= 60 * 60;
+            const minutes = Math.floor(seconds / 60);
+            seconds = Math.floor(seconds % 60);
+            return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        // Get current date and time in Nigeria timezone (WAT)
+        const now = new Date();
+        const date = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+        }).format(now);
+
+        const time = new Intl.DateTimeFormat('en-GB', {
+            timeZone: 'Africa/Lagos',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        }).format(now);
+
+        const uptime = formatUptime(process.uptime());
+        const totalCommands = commands.length;
+
+        // Format the command list
+        let list = `╭────────────────╮
+      𝐄𝐦𝐩𝐢𝐫𝐞_𝐕𝟏
+╰────────────────╯
+
+╭────────────────
+│ ✭ Prefix: ${monospace(prefix)}
+│ ✭ Owner: ${monospace(pushname)}
+│ ✭ Commands: ${monospace(totalCommands.toString())}
+│ ✭ Uptime: ${monospace(uptime)}
+│ ✭ Date: ${monospace(date)}
+│ ✭ Time: ${monospace(time)}
+╰────────────────
+╭────────────────\n`;
+
+        commands.forEach((cmd, index) => {
+            if (cmd.pattern && cmd.category) {
+                list += `│ ${index + 1} ${monospace(cmd.pattern)}\n│    Category: ${cmd.category}\n`;
+            }
+        });
+
+        list += `╰────────────────`;
+
+        await conn.sendMessage(from, {
+            text: list.trim(),
+        }, { quoted: mek });
+    } catch (e) {
+        console.error(e);
+        reply(`${e}`);
+    }
+});
