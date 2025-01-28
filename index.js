@@ -21,7 +21,7 @@ const prefix = config.PREFIX;
 const mode = config.MODE || "private";
 const ownerNumber = [config.OWNER_NUMBER];
 const ffmpeg = require('fluent-ffmpeg');
-const pushname = mek.pushName || '𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]'
+
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -75,7 +75,6 @@ console.log('Empire_X connected to whatsapp ✅')
 
         let up = `╭─── ᴇᴍᴘɪʀᴇ-ᴍᴅ ────
 │ Prefix : [ ${prefix} ]
-│ Owner : ${pushname}
 │ Mode : ${mode}
 │ Platform : Linux
 ╰────────────────`;
@@ -139,6 +138,7 @@ const isGroup = from.endsWith('@g.us')
 const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
 const senderNumber = sender.split('@')[0]
 const botNumber = conn.user.id.split(':')[0]
+const pushname = mek.pushName || 'Sin Nombre'
 const isMe = botNumber.includes(senderNumber)
 const isOwner = ownerNumber.includes(senderNumber) || isMe
 const botNumber2 = await jidNormalizedUser(conn.user.id);
